@@ -10,7 +10,7 @@ RESPONSE=$(curl -X POST \
   -F "applicationId=674066843da24ef64598ca8b" \
   -F "scanName=C-tutorial-SAST Scan from TeamCity" \
   -F "language=C" \
-  https://appsecops-api.intruceptlabs.com/api/v1/integrations/performSASTScan)
+  https://appsecops-api.intruceptlabs.com/api/v1/integrations/sast-scans)
 # Use Python to parse and display JSON
 python3 - <<EOF
 import json
